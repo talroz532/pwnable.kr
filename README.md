@@ -69,7 +69,8 @@ int fd = atoi( argv[1] ) - 0x1234;
  ![Capture7](https://user-images.githubusercontent.com/67608539/144743866-4a3408b4-4db3-4c46-933a-7f766575327a.PNG)
  
  ננסה להזין את המילה שמושוואת בתנאי- '"LETMEWIN"'
- <img align="left" src="https://user-images.githubusercontent.com/67608539/144743874-1c2d02e7-bb97-494a-8d94-df4b9aea573a.PNG">
+![Capture8](https://user-images.githubusercontent.com/67608539/144743874-1c2d02e7-bb97-494a-8d94-df4b9aea573a.PNG)
+
 
 הגענו לפיתרון!
  ```bash
