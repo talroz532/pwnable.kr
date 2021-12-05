@@ -81,7 +81,7 @@ flag- “ mommy! I think I know what a file descriptor is!! ”
 
 ---
 
-
+<br/><br/>
 חשוב להבין מקטע הקוד מה הם הפונקציות- read ו system
 
 ```bash
