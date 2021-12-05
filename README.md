@@ -4,13 +4,7 @@
 זהו מדריך כיצד לפתור את האתגר הראשון-fd
 
 
-
-
-
-<img align="left" src="https://user-images.githubusercontent.com/67608539/144739918-5ec4eda8-a12b-4def-b77f-9704ca84ea0d.PNG">
-
-
-
+![Capture1](https://user-images.githubusercontent.com/67608539/144753581-4a7b1d05-2376-4fff-bc07-5398d6a407e8.PNG)
 
 
 
