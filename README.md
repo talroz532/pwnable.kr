@@ -17,6 +17,15 @@
 
 ![Capture3](https://user-images.githubusercontent.com/67608539/144740069-b1909b2c-b7f3-4f22-ac1e-006e64dcfc32.PNG)
 
+
 ישנם שלושה קבצים, אחד מהם קובץ C.
 המטרה שלנו להגיע ל 'flag' מסויים, 
-ניתן לראות שיש קובץ 'flag' ננסה לראות מה יש בו באמצעות הפקודה 'cat' על מנת לראות את תוכנו של הקובץ
+ניתן לראות שיש קובץ 'flag' ננסה לראות מה יש בו באמצעות הפקודה 'cat' 
+על מנת לראות את תוכנו של הקובץ
+![Capture9](https://user-images.githubusercontent.com/67608539/144740230-027723f7-953c-4d1d-9fe3-896ceb65cef2.PNG)
+
+''cat: flag: permission denied''
+אין לנו מספיק הרשאות כדי להיכנס לקובץ.
+
+ננסה להריץ עכשיו את הפקודה 'cat' על הקובץ 'fd.c'
+![Capture4](https://user-images.githubusercontent.com/67608539/144740294-e9bb5014-e7b2-436d-bee1-efee4873d38f.PNG)
