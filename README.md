@@ -24,7 +24,7 @@
 ![Capture9](https://user-images.githubusercontent.com/67608539/144740230-027723f7-953c-4d1d-9fe3-896ceb65cef2.PNG)
 
 ```bash
-cat: flag: permission denied```
+cat: flag: permission denied ```
 אין לנו מספיק הרשאות כדי להיכנס לקובץ.
 
 ננסה להריץ עכשיו את הפקודה 'cat' על הקובץ 'fd.c'
@@ -46,7 +46,7 @@ cat: flag: permission denied```
  נקבל את המספר 4660.
  נשים כארגומנט את המספר 4660 כך שפעולת החיסור תיתן לנו-0.
  ```bash
- int fd = 0;```
+ int fd = 0; ```
  
  ניתן לראות שבניגוד לניסיונות הקדומים, כאן אנו מקבלים אופציה לקלט, ננסה להזין את המילה שמושוואת בתנאי- '"LETMEWIN"'
  ![Capture7](https://user-images.githubusercontent.com/67608539/144743866-4a3408b4-4db3-4c46-933a-7f766575327a.PNG)
