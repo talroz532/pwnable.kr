@@ -28,6 +28,7 @@
 cat: flag: permission denied 
 ```
 אין לנו מספיק הרשאות כדי להיכנס לקובץ.
+<br/><br/><br/><br/>
 
 ננסה להריץ את הפקודה 'cat' על הקובץ 'fd.c'
 ![Capture4](https://user-images.githubusercontent.com/67608539/144740294-e9bb5014-e7b2-436d-bee1-efee4873d38f.PNG)
