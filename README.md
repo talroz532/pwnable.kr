@@ -32,11 +32,11 @@ cat: flag: permission denied
 ![Capture4](https://user-images.githubusercontent.com/67608539/144740294-e9bb5014-e7b2-436d-bee1-efee4873d38f.PNG)
 
 ניתן לראות שהתוכנית אמורה לקבל ארגומנט כלשהו, ננסה להריץ מספר ניסיונות.
-
-![Capture5](https://user-images.githubusercontent.com/67608539/144743474-d17bbbcc-886f-4257-8ee4-aacd55a227ef.PNG)
 ```c
 int main(int argc, char* argv[], char* envp[])
 ```
+![Capture5](https://user-images.githubusercontent.com/67608539/144743474-d17bbbcc-886f-4257-8ee4-aacd55a227ef.PNG)
+
 כאשר לא מזינים ארגומנט כלשהו, נקבל הודעה שאמור להיות ארגומנט.
 
 ננסה שנית אך הפעם נזין ארגומנט כלשהו
