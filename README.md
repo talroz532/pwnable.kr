@@ -39,11 +39,11 @@ int main(int argc, char* argv[], char* envp[])
 
 ![Capture5](https://user-images.githubusercontent.com/67608539/144743474-d17bbbcc-886f-4257-8ee4-aacd55a227ef.PNG)
 ```c
-        if(argc<2){
-                printf("pass argv[1] a number\n");
-                return 0;
+if(argc<2){
+        printf("pass argv[1] a number\n");
+        return 0;
         }
-        ```
+```
 
 ננסה שנית אך הפעם נזין ארגומנט כלשהו
 
