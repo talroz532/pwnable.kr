@@ -12,7 +12,7 @@
 ![Capture2](https://user-images.githubusercontent.com/67608539/144739990-ee683c1e-22fd-4d91-bca2-c34611f46f69.PNG)
 
 
-, פעולה ראשונה שנעשה היא לבדוק אילו קבצים נמצאים, נכתוב את הפקודה 'ls' על מנת לראות אילו ספריות וקבצים יש במיקום
+פעולה ראשונה שנעשה היא לבדוק אילו קבצים נמצאים, נכתוב את הפקודה 'ls' על מנת לראות אילו ספריות וקבצים יש במיקום
 
 ![Capture3](https://user-images.githubusercontent.com/67608539/144740069-b1909b2c-b7f3-4f22-ac1e-006e64dcfc32.PNG)
 
@@ -38,7 +38,12 @@ int main(int argc, char* argv[], char* envp[])
 כאשר לא מזינים ארגומנט כלשהו, נקבל הודעה שאמור להיות ארגומנט.
 
 ![Capture5](https://user-images.githubusercontent.com/67608539/144743474-d17bbbcc-886f-4257-8ee4-aacd55a227ef.PNG)
-
+```c
+        if(argc<2){
+                printf("pass argv[1] a number\n");
+                return 0;
+        }
+        ```
 
 ננסה שנית אך הפעם נזין ארגומנט כלשהו
 
