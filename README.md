@@ -77,7 +77,11 @@ int fd = atoi( argv[1] ) - 0x1234;
 flag- “ mommy! I think I know what a file descriptor is!! ”
 ```
 
+
+
 ---
+
+
 חשוב להבין מקטע הקוד מה הם הפונקציות- read ו system
 
 ```bash
@@ -85,3 +89,9 @@ read() attempts to read up to count bytes from file descriptor fd
 into the buffer starting at buf.
 ```
 [להמשך קריאה-read](https://man7.org/linux/man-pages/man2/read.2.html)
+
+```bash
+used to pass the commands that can be executed in the command processor
+or the terminal of the operating system
+```
+[להמשך קריאה-system](https://man7.org/linux/man-pages/man3/system.3.html)
