@@ -34,7 +34,9 @@ cat: flag: permission denied
 ניתן לראות שהתוכנית אמורה לקבל ארגומנט כלשהו, ננסה להריץ מספר ניסיונות.
 
 ![Capture5](https://user-images.githubusercontent.com/67608539/144743474-d17bbbcc-886f-4257-8ee4-aacd55a227ef.PNG)
-
+```c
+int main(int argc, char* argv[], char* envp[])
+```
 כאשר לא מזינים ארגומנט כלשהו, נקבל הודעה שאמור להיות ארגומנט.
 
 ננסה שנית אך הפעם נזין ארגומנט כלשהו
