@@ -91,7 +91,7 @@ into the buffer starting at buf.
 [להמשך קריאה-read](https://man7.org/linux/man-pages/man2/read.2.html)
 
 ```bash
-used to pass the commands that can be executed in the command processor
+system() used to pass the commands that can be executed in the command processor
 or the terminal of the operating system
 ```
 [להמשך קריאה-system](https://man7.org/linux/man-pages/man3/system.3.html)
