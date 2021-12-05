@@ -17,7 +17,7 @@
 
 ![Capture3](https://user-images.githubusercontent.com/67608539/144740069-b1909b2c-b7f3-4f22-ac1e-006e64dcfc32.PNG)
 
-
+<br/><br/><br/><br/>
 ישנם שלושה קבצים, אחד מהם קובץ C.
 המטרה שלנו להגיע ל 'flag' מסויים, 
 ניתן לראות שיש קובץ 'flag' ננסה לראות מה יש בו באמצעות הפקודה 'cat' 
