@@ -34,14 +34,18 @@ cat: flag: permission denied
 ניתן לראות שהתוכנית אמורה לקבל ארגומנט כלשהו, ננסה להריץ מספר ניסיונות.
 
 ![Capture5](https://user-images.githubusercontent.com/67608539/144743474-d17bbbcc-886f-4257-8ee4-aacd55a227ef.PNG)
+
 כאשר לא מזינים ארגומנט כלשהו, נקבל הודעה שאמור להיות ארגומנט.
 
 ננסה שנית אך הפעם נזין ארגומנט כלשהו
 
 ![Capture6](https://user-images.githubusercontent.com/67608539/144743499-c5ba09c1-913d-4d32-9ee9-f0b84250bd0c.PNG)
+
 ניתן לראות שאנחנו מקבלים הודעה שונה מהקודמת.
 
-נסתכל על השורה הזאת בקוד- '''int fd = atoi( argv[1] ) - 0x1234;'''
+נסתכל על השורה הזאת בקוד- ```bash
+int fd = atoi( argv[1] ) - 0x1234;
+```
 
  נמיר את '0x1234' למספר דצימלי.
  נקבל את המספר 4660.
@@ -53,6 +57,7 @@ cat: flag: permission denied
  ניתן לראות שבניגוד לניסיונות הקדומים, כאן אנו מקבלים אופציה לקלט, ננסה להזין את המילה שמושוואת בתנאי- '"LETMEWIN"'
  ![Capture7](https://user-images.githubusercontent.com/67608539/144743866-4a3408b4-4db3-4c46-933a-7f766575327a.PNG)
 ![Capture8](https://user-images.githubusercontent.com/67608539/144743874-1c2d02e7-bb97-494a-8d94-df4b9aea573a.PNG)
+
 הגענו לפיתרון!
 flag- “mommy! I think I know what a file descriptor is!!”
 
