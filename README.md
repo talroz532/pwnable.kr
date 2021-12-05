@@ -4,7 +4,7 @@
 זהו מדריך כיצד לפתור את האתגר הראשון-fd
 
 ![Capture1](https://user-images.githubusercontent.com/67608539/144753581-4a7b1d05-2376-4fff-bc07-5398d6a407e8.PNG)
-<br/>
+<br/><br/><br/><br/>
 
 
 נעתיק את קוד ה 'ssh' לטרמינל של לינוקס, אני משתמש ב- 'ubuntu-20.04.3'
