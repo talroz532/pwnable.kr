@@ -63,9 +63,7 @@ int fd = atoi( argv[1] ) - 0x1234;
 ![Capture8](https://user-images.githubusercontent.com/67608539/144743874-1c2d02e7-bb97-494a-8d94-df4b9aea573a.PNG)
 
 הגענו לפיתרון!
-flag- “mommy! I think I know what a file descriptor is!!”
+ ```bash
+flag- “ mommy! I think I know what a file descriptor is!! ”
+```
 
- הפעולה read-
-        read() attempts to read up to count bytes from file descriptor fd
-       into the buffer starting at buf.
- להמשך קריאה https://man7.org/linux/man-pages/man2/read.2.html
