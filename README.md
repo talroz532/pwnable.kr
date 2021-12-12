@@ -106,3 +106,22 @@ system() used to pass the commands that can be executed in the command processor
 or the terminal of the operating system
 ```
 [להמשך קריאה-system](https://man7.org/linux/man-pages/man3/system.3.html)
+
+<br/><br/><br/><br/><br/><br/><br/>
+## collison
+<br/><br/>
+```bash
+0x21DD09EC -> 568134124
+4*5= 20; 20 bytes, 5 of 4 bytes.
+568134124/4 = ~113626824
+568134124- (113626824*4) = 113626828
+
+dec-
+113626824  113626824  113626824  113626824  113626828
+
+hex-
+0x6C5CEC8 0x6C5CEC8 0x6C5CEC8 0x6C5CEC8 0x6C5CECC
+
+`python -c 'print ("\xc8\xce\xc5\x06" * 4 + "\xcc\xce\xc5\x06")'`
+```
+
