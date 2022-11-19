@@ -164,7 +164,8 @@ int main(){
 
 	printf("Wrong, maybe you should try 2^32 cases.\n");
 	return 0;
-}```
+}
+```
 <br/><br/>
 אין ``seed`` כלומר הערך אינו משתנה
 <br/>
