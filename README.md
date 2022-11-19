@@ -144,7 +144,7 @@ shell.interactive()
 # type cat flag
 ```
 
-##random
+## random
 
 ```c
 #include <stdio.h>
